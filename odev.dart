@@ -8,7 +8,7 @@ void main() {
   int attempt = 0; //Declare the number of trying
 
   while (i < 5) {
-    int randomNumber = random.nextInt(10) + 1; //Generate random integer
+    int randomNumber = random.nextInt(9) + 1; //Generate random integer
     numbers[i] = randomNumber; //give first integer to list
 
     //checking the index of lists if it is true we increment i variable
