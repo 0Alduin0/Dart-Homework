@@ -23,6 +23,6 @@ void main() {
     }
     if (targetList.toString() == myList.toString()) break;
   }
-
+  print(myList);
   print("list found at $attempt. try");
 }
